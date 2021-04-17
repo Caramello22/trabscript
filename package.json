@@ -6,7 +6,13 @@
   "dependencies": {
     "http-server": "^0.12.3"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "compile": "tsc",
+    "concurrently": "^6.0.2",
+    "lite-server": "^2.6.1",
+    "server": "lite-server --baseDir=app",
+    "watch": "tsc -w"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
